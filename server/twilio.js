@@ -9,7 +9,6 @@ const sendMessage = async sendNum => {
             from: '+17752047864',
             to: sendNum
         })
-        // .then(message => console.log(message.sid));
     return msg.sid
 }
 
