@@ -1,0 +1,30 @@
+
+body{
+    width:100vw;
+    height: 100vh;
+    margin:0;
+}
+#btns{
+    width: 95%;
+    height: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 30%;
+}
+
+.btn{
+    border-radius: 5px;
+    padding: 10px;
+    background: whitesmoke;
+    color: #087cc4;
+    border: 1px solid #087cc4;
+}
